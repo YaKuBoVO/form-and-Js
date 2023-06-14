@@ -23,12 +23,19 @@ let contacts = [
       phone: "123-555--444",
       delete: " ",
    },
+      {
+      id: " ",
+      name: "Rashidov Husan",
+      email: "husanov233@gmail.com",
+      phone: "123-555--444",
+      delete: " ",
+   },
 ];
 
 
 let tableBody = document.getElementById("contact-table-body");
 let count = 1;
-let delet = " X ";
+let delet = " Bin ";
 
 
 
@@ -96,9 +103,3 @@ contactForm.addEventListener("submit", function(e) {
    emailInput.value = "";
    phoneInput.value = "";
 });
-
-
-
-
-//const element = document.getElementById("div-01");
-//element.remove(); // Removes the div with the 'div-02' id
